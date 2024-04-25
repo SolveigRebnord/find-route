@@ -1,0 +1,93 @@
+#header {
+    background-color: #235D8E;
+    height: 60px;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+main {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    padding-left: 140px;
+
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+span {
+    font-size: 48px;
+    padding-left: 1px;
+    font-weight: 800;
+}
+
+.drammen {
+    font-size: 15px;
+    
+    font-weight: 600;
+}
+
+.forms {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.forms div:first-child form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.forms div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#result {
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#postalCode {
+    height: 60px;
+    width: 131px;
+    border-radius: 12px;
+    border: solid 1px #235D8E;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
